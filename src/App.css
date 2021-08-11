@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* custom design */
+
+input[type="text"]{
+  outline: none !important;
+  border-radius: .5rem;
+  padding: .3rem;
+  border: 2px solid royalblue;
+  background: #ffa241;
+  font-size: larger;
+  color: rgb(224, 219, 219);
+  height: 5vmin;
+  width: 30vmax;
+  margin: auto;
+}
+
+ul li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(224, 219, 219);
+}

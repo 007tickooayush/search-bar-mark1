@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const libraries = [
+  {name:'Express', url:'https://expressjs.com/'},
+  {name:'Angular', url:'https://angular.io/'},
+  {name:'NativeScript', url:'https://nativescript.org/'},
+  {name:'VueJs', url:'https://vuejs.org/'},
+];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App libraries={libraries}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
